@@ -12,7 +12,7 @@ dynamic = ["version"]
 homepage = "https://github.com/k4yt3x/iden-channel-calculator"
 
 [project.scripts]
-iden-channel-calculator = "iden_channel_calculator:main"
+iden-channel-calculator = "iden_channel_calculator.__main__:main"
 
 [tool.isort]
 profile = "black"
