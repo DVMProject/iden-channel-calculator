@@ -3,7 +3,7 @@ name = "iden-channel-calculator"
 description = "A simple Project 25 iDEN channel information calculator"
 authors = [{ name = "K4YT3X", email = "i@k4yt3x.com" }]
 dependencies = []
-requires-python = ">=3.9"
+requires-python = ">=3.7"
 readme = "README.md"
 license = { text = "MIT" }
 dynamic = ["version"]
