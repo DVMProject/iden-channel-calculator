@@ -75,6 +75,10 @@ def main() -> int:
                 args.channel_number
             )
 
+        if args.channel_number is False:
+            print("Error: invalid transmit frequency specified", file=sys.stderr)
+            return 1
+
         summary = {
             "Base Frequency (Hz)": args.base,
             "Channel Spacing (kHz)": args.spacing,

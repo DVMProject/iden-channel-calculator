@@ -1,6 +1,6 @@
 [project]
 name = "iden-channel-calculator"
-description = "Simple utility to calculate the IDEN channel information"
+description = "A simple Project 25 iDEN channel information calculator"
 authors = [{ name = "K4YT3X", email = "i@k4yt3x.com" }]
 dependencies = []
 requires-python = ">=3.9"
