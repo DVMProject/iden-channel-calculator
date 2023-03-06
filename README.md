@@ -2,7 +2,7 @@
 
 A simple Project 25 iDEN channel information calculator. This script is a rewrite of the [iden_channel_calc](https://github.com/DVMProject/dvmhost/blob/master/iden_channel_calc.py) from [DVMProject/dvmhost](https://github.com/DVMProject/dvmhost).
 
-![screenshot](https://user-images.githubusercontent.com/21986859/223018287-3c6a36ec-3d8d-4175-92fb-20c13e2d541c.png)
+![screenshot](https://user-images.githubusercontent.com/21986859/223019569-67141f74-79cd-4e8a-abb0-034c03b81bc0.png)
 
 ## Installation
 
