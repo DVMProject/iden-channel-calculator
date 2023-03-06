@@ -65,16 +65,20 @@ def main() -> int:
 
         calculator = IDENChannelCalculator(args.base, spacing, offset, bandwidth)
 
+        # both channel_number and transmit_frequency are guaranteed to be present
+        #   because they are requried in a mutually exclusive group in argparse
+        # calculate the channel number if it is not provided
         if args.channel_number is None:
             args.channel_number = calculator.get_channel_number_by_frequency(
                 args.transmit_frequency
             )
-
+        # calculate the transmit frequency if it is not provided
         if args.transmit_frequency is None:
             args.transmit_frequency = calculator.get_frequency_by_channel_number(
                 args.channel_number
             )
 
+        # if the given frequency doesn't match any channel number
         if args.channel_number is False:
             print("Error: invalid transmit frequency specified", file=sys.stderr)
             return 1
