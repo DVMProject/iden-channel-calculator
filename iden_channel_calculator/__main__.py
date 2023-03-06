@@ -79,7 +79,7 @@ def main() -> int:
             )
 
         # if the given frequency doesn't match any channel number
-        if args.channel_number is False:
+        if args.channel_number == -1:
             print("Error: invalid transmit frequency specified", file=sys.stderr)
             return 1
 

@@ -29,12 +29,12 @@ class IDENChannelCalculator:
         get the iDEN channel's channel number by its frequency
 
         :param transmit_frequency: the frequency to calculate the channel number from
-        :return: the channel's channel number as int
+        :return: the channel's channel number as int, -1 when frequency is invalid
         """
         channel_number = (transmit_frequency - self.base) / self.spacing
         if channel_number.is_integer():
             return int(channel_number)
-        return False
+        return -1
 
     def get_frequency_by_channel_number(self, channel_number: int) -> int:
         """
