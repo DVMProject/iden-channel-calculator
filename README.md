@@ -9,7 +9,7 @@ A simple Project 25 iDEN channel information calculator. This script is a rewrit
 You will need to have Python (>= 3.7), Pip, and Git installed.
 
 ```shell
-pip install git+https://github.com/k4yt3x/iden-channel-calculator.git
+pip install git+https://github.com/DVMProject/iden-channel-calculator.git
 ```
 
 ## Usages

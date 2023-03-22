@@ -9,7 +9,7 @@ license = { text = "MIT" }
 dynamic = ["version"]
 
 [project.urls]
-homepage = "https://github.com/k4yt3x/iden-channel-calculator"
+homepage = "https://github.com/DVMProject/iden-channel-calculator"
 
 [project.scripts]
 iden-channel-calculator = "iden_channel_calculator.__main__:main"
